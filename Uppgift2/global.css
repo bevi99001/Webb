@@ -1,0 +1,33 @@
+body
+{
+	background-color: rgb(7, 87, 63);
+	color: slategray;
+}
+
+.mainrubrik
+{
+	font-family: Arial;
+	font-size: 22px;
+}
+
+.minatankar
+{
+	text-align: right;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+.omwebb
+{
+	background-color: darkblue;
+	color: white;
+}
+
+.ommig
+{
+	border: 1px solid black;
+	border-radius: 5px;
+}
