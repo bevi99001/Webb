@@ -1,0 +1,110 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif; /* Sätter typsnitt. */
+	margin: 0; /* Sätter margin på body för att undvika standard som brukar vara 8px. */
+	background: rgb(50, 50, 50); /* Bakgrundsfärg för sidan. */
+}
+
+.app-nav
+{
+	background-color: black; /* Sätter bakgrundsfärgen på navigationen. */
+	color: white; /* Sätter textfärgen. */
+	margin-top: -16px; /* Fixar problemet med att navigationsfältet inte börjar ifrån toppen. */
+}
+
+.app-menu li
+{
+	padding: 10px 10px; /* Lite padding för navigationsknapparna. */
+}
+
+.app-menu ul
+{
+	padding: 0px; /* Fixar så att navigationsfältet sträcker sig över hela sidan. */
+	text-align: center; /* Centrerar texten i navigationsfältet. */
+	list-style-type: none; /* Tar bort punkterna ifrån listan. */
+}
+
+.app-menu a
+{
+	text-decoration: none; /* Tar bort understräckar ifrån länkar */
+	color: green; /* Sätter textfärgen till grönt */
+}
+
+.app-menu a:hover /* Ändrar länkens textfärg vid hover */
+{
+	color: lime;
+}
+
+.app-menu li:nth-last-child(1) /* Sätter bakgrundsfärgen på Google länken i navigationen */
+{
+	background-color: rgb(10, 25, 40);
+}
+
+.app-content /* Själva boxen för sidans innehåll */
+{
+	width: 800px; /* Sätter bredden till 800px */
+
+	margin: 50px auto; /* Fixar så att den ligger i mitten av sidan */
+	padding: 25px 25px; /* Lite padding för innehållet */
+
+	background-color: black;
+	color: white;
+
+	box-shadow: 5px 5px 5px black; /* svart box-shadow för rutan med 5px av h-offset, v-offset och blur */
+}
+
+.app-content-table
+{
+	border: 1px solid white; /* Kant för tabbelen som är 1px vit */	
+}
+
+.app-content-table tr
+{
+	text-emphasis: bold; /* Fetstil för tabellhuvud */
+}
+
+.app-content-table tr, td
+{
+	border: 1px solid white;
+	padding: 10px 10px; /* Lite padding för tabellen */
+	text-align: right; /* Sätter texten så den är högerjusterat*/
+}
+
+.app-content-table th /* Tabellhuvud */
+{
+	padding: 10px 10px;
+	background-color: #e8e8e8;
+	color: black;
+}
+
+.app-content-table tr:nth-child(1n) /* 1n tabellraden */
+{
+	background-color: #c90000;
+}
+
+
+.app-content-table tr:nth-child(2n) /* 2n tabellraden */
+{
+	background-color: #f1c232;
+	color: black;
+}
+
+
+img /* Alla bilder */
+{
+	max-width: 600px; /* Sätter bildens maxbredd */
+	margin: 25px 25px; /* Lite margin runt bilderna */
+	border: 2px solid white; /* 2px vit kant för alla bilder */
+	border-radius: 4px; /* Rundade kanter */
+}
+
+.app-image-vxo /* "vxo" bilden */
+{
+	filter: grayscale(); /* Gör så att bilden är svartvitt */
+}
+
+.app-image-vxo:hover /* "vxo" bilden hover */
+{
+	transition: filter 250ms linear; /* Övergångseffekt på filter som dröjer 250ms och som är linjärt */
+	filter: none; /* Tar bort svartvitt filtern */
+}

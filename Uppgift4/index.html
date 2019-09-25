@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- dokumenttyp html, säger till webbläsaren att detta är HTML. -->
+<html lang="sv"> <!-- Information om sidan att den är på Svenska -->
+	<head> <!-- Head starttag, sidans huvud, har olika typer av 'inställningar' -->
+		<meta charset="UTF-8"> <!-- sätter karaktärenkodning till utf-8 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- fixar skala för mobiltelefoner -->
+		<link rel="stylesheet" href="main.css">  <!-- Inkluderar extern CSS -->
+		<title>Egen Webbplats</title> <!-- Sätter titel -->
+	</head>
+
+	<body> <!-- Body starttag, i denna så syns allt på sidan. -->
+		<div class="app-main"> <!-- Denna divven innehåller allting på sidan, den har en klass som heter app-main -->
+			<header> <!-- Header, innehåller navigationen. -->
+				<div class="app-nav"> <!-- Denna divven innehålller bara navigationen, den har en klass som heter app-nav -->
+					<nav class="app-menu"> <!-- Navigationselement med klass 'app-menu' -->
+						<ul> <!-- oordnad lista för navigationen -->
+							<li> <!-- artikel i listan -->
+								<a href="index.html">Startsida</a> <!-- Länk som leder till startsidan(index.html) -->
+							</li>
+							<li>
+								<a href="kontakt.html">Kontakt</a>
+							</li>
+							<li>
+								<a href="tabell.html">Tabell</a>
+							</li>
+							<li>
+								<a href="https://google.se" target="_blank">Google</a> <!-- Extern länk som leder till Google.se som öppnas i nytt flik med target="_blank". -->
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<div class="app-content"> 
+				<h1>Mina projekt</h1> <!-- Största rubrikestorleken -->
+				<ol> <!-- Ordnad lista -->
+					<li><a href="https://github.com/supertransformer/SoupLauncher" target="_blank">SoupLauncher</a></li>
+					<li><a href="https://github.com/supertransformer/TwitchAppAPIWrapper" target="_blank">TwitchAppAPIWrapper</a></li>
+					<li><a href="https://github.com/supertransformer/discord-bot-command-framework" target="_blank">discord-bot-command-framework</a></li>
+					<li><a href="https://github.com/supertransformer/Phonebook.js" target="_blank">Phonebook.js</a></li>
+				</ol>
+
+				<a href="https://teknikum.se/"><img src="http://www.ifskolan.se/wp-content/uploads/2019/06/Teknikum.jpg" alt="Teknikum Framsida"> <!-- Bild med extern källa och alt attribut som beskriver bilden. --></a>
+				<img class="app-image-vxo" src="https://images2.minutemediacdn.com/image/upload/c_crop,h_2172,w_3864,x_0,y_202/f_auto,q_auto,w_1100/v1560973712/shape/mentalfloss/586059-istock-1133799589.jpg" alt="Växjö"> 
+			</div>
+		</div>
+	</body>
+</html>
