@@ -58,7 +58,7 @@ body
 	border: 1px solid white; /* Kant för tabbelen som är 1px vit */	
 }
 
-.app-content-table tr
+.app-content-table th
 {
 	font-weight: bold; /* Fetstil för tabellhuvud */
 }
