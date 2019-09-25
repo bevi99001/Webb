@@ -60,7 +60,7 @@ body
 
 .app-content-table tr
 {
-	text-emphasis: bold; /* Fetstil för tabellhuvud */
+	font-weight: bold; /* Fetstil för tabellhuvud */
 }
 
 .app-content-table tr, td
@@ -100,7 +100,7 @@ img /* Alla bilder */
 
 .app-image-vxo /* "vxo" bilden */
 {
-	filter: grayscale(); /* Gör så att bilden är svartvitt */
+	filter: grayscale(100%); /* Gör så att bilden är svartvitt */
 }
 
 .app-image-vxo:hover /* "vxo" bilden hover */
